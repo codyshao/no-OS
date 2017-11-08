@@ -1,0 +1,6 @@
+<map id="include/irq.h" name="include/irq.h">
+<area shape="rect" id="node1" title="Header file of IRQ interface." alt="" coords="263,5,361,32"/>
+<area shape="rect" id="node2" href="$aducm3029_2irq_8c.html" title="Implementation of External IRQ driver for ADuCM302x." alt="" coords="5,80,208,121"/>
+<area shape="rect" id="node3" href="$xilinx_2irq_8c.html" title="Implementation of Xilinx IRQ Generic Driver." alt="" coords="233,80,391,121"/>
+<area shape="rect" id="node4" href="$xilinx_2uart_8c.html" title=" " alt="" coords="415,80,574,121"/>
+</map>
