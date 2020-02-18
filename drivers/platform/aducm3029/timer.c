@@ -69,7 +69,7 @@
 /******************************************************************************/
 
 /** Incremented each millisecond by \ref tmr_callback() */
-static uint64_t g_count;
+static volatile uint64_t	g_count;
 /** Counts the number of instances created */
 static uint32_t nb_instances;
 /** Counts the number of started timers */
