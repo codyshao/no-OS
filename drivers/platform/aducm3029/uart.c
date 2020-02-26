@@ -177,6 +177,10 @@ static void uart_callback(void *desc, uint32_t event, void *buff)
 		extra->waiting_write_callback--;
 		extra->callback(extra->param, WRITE_DONE, buff);
 		break;
+	case ADI_UART_EVENT_NO_RX_BUFFER_EVENT:
+		//extra->waiting_write_callback--;
+		extra->callback(extra->param, DATA_AVAILABLE, buff);
+		break;
 	default:
 		extra->errors |= (uint32_t)buff;
 		extra->callback(extra->param, ERROR, buff);

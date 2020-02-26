@@ -62,6 +62,8 @@ enum UART_EVENT {
 	WRITE_DONE,
 	/** Read operation finalized */
 	READ_DONE,
+	/** Data available */
+	DATA_AVAILABLE,
 	/** An error occurred */
 	ERROR
 };
